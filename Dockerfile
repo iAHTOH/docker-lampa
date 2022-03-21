@@ -5,7 +5,7 @@ ADD https://github.com/yumata/lampa/archive/master.zip /lampa.zip
 
 
 RUN apk add --no-cache nginx unzip \
-    && && unzip lampa.zip \
+    && unzip lampa.zip \
     && rm lampa.zip \
     && mv lampa-* lampa 
 
