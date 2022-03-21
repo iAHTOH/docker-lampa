@@ -11,3 +11,4 @@ docker build -t iahtoh/lampa https://github.com/iAHTOH/docker-lampa.git
 ```
 docker run --name LAMPA  -p 8083:8083 iahtoh/lampa:latest
 ```
+Для просмотра  http://mysite:8083
