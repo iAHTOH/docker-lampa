@@ -2,7 +2,7 @@
 FROM alpine:edge
 
 ADD https://github.com/yumata/lampa/archive/master.zip /lampa.zip
-ADD lampa.config /lampa.conf 
+ADD lampa.conf /lampa.conf 
 
 
 RUN apk add --no-cache nginx unzip \
